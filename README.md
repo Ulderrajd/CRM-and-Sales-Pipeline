@@ -18,7 +18,7 @@ to answer three linked business questions:
 3. **Where is revenue being lost** — through customer churn, lost deals, or both — and
    which segments carry the most risk?
 
-The full write-up, including methodology and every supporting chart, is in [WordPress]([https://example.com](https://billybonka1602.wordpress.com/2026/07/06/crm-pipeline-analysis-a-b2b-pipeline-health-lead-distribution-churn-and-lost-deal-case-study/))
+The full write-up, including methodology and every supporting chart, is in [WordPress]((https://billybonka1602.wordpress.com/2026/07/06/crm-pipeline-analysis-a-b2b-pipeline-health-lead-distribution-churn-and-lost-deal-case-study/)](https://billybonka1602.wordpress.com/2026/07/06/crm-pipeline-analysis-a-b2b-pipeline-health-lead-distribution-churn-and-lost-deal-case-study/))
 
 
 ---
