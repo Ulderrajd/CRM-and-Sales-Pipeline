@@ -124,12 +124,11 @@ The full write-up, including methodology and every supporting chart, is in [Word
 ## Repository Structure
 
 ```
-├── Data                                  # Contain data file in xlsx
-├──    
-├── CRM_DAX_Package.md                    # Core DAX measures (Overview tab)
-├── Sales_Tab_DAX.md                      # Sales tab DAX measures
-├── CRM_data.db                           # SQLite database
-├── CRM_Pipeline_Dashboard.pbix           # Power BI dashboard file
+├── Data/
+│   └── CRM and Sales Pipelines.xlsx        # Source dataset
+├── Working File/
+│   ├── CRM Pipeline Dashboard.pbix         # Power BI dashboard (Overview, Sales, Agents tabs)
+│   └── CRM_SQL_query.xml                   # Saved SQL queries (cleaning, funnel, distribution, churn/loss)
 └── README.md
 ```
 
