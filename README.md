@@ -15,8 +15,7 @@ to answer three linked business questions:
    bottleneck?
 2. **Which countries, industries, and products** represent the strongest opportunities,
    and which sales reps are over- or under-performing relative to their peers?
-3. **Where is revenue being lost** — through customer churn, lost deals, or both — and
-   which segments carry the most risk?
+3. **Where is revenue being lost** and which segments carry the most risk?
 
 The full write-up, including methodology and every supporting chart, is in [WordPress](https://billybonka1602.wordpress.com/2026/07/06/crm-pipeline-analysis-a-b2b-pipeline-health-lead-distribution-churn-and-lost-deal-case-study/)
 
