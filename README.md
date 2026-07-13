@@ -167,11 +167,37 @@ Using the same 1–5 composite scoring approach, **Laura Thompson** ranks high
 **Churn and Lost Deals**
 **Churned Customers**
 Among established customers, 49.1% have churned, representing 45.7% of total historical deal value.
-![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-1-4.png?w=700)
+
+<img width="1548" height="272" alt="image" src="https://github.com/user-attachments/assets/7eb01244-4a5a-4c46-aa3d-3e9380a6a862" />
 Churn overview
 
+Churn was broken down by Country, Industry, Product, and Owner: <br />
+*By Country*
+<img width="1095" height="507" alt="image" src="https://github.com/user-attachments/assets/83eaa83a-083e-4d00-b622-be723e64c984" />
+Churn by country
 
+Spain, Switzerland, Germany, and Italy each show churn rates above 50%. Given Germany’s strong standing in the earlier opportunity analysis, its churn rate is worth flagging for review, a country can rank highly on new-deal potential while also carrying elevated retention risk; these aren’t mutually exclusive findings.
 
+*By Industry*
+<img width="1146" height="667" alt="image" src="https://github.com/user-attachments/assets/929e9432-a2e7-4911-a622-2ed692d2419f" />
+Churn by industry
+
+Education & Science stands out with a 70% churn rate and warrants a closer review of account health in that segment.
+
+*By Product*
+<img width="1107" height="297" alt="image" src="https://github.com/user-attachments/assets/45ed7320-6c79-45ae-adc2-61dbddc4a6eb" />
+Churn by product
+
+SAAS and Services carry both the largest customer bases and the largest churned populations, together contributing 78.9% of total lost value
+
+*By Owner (Agent)*
+<img width="1110" height="472" alt="image" src="https://github.com/user-attachments/assets/d5a48fa3-3bcb-43fa-90ea-1d6f92a17d74" />
+Churn by owner
+
+Emily Johnson has the highest churn rate (61.3%), contributing 15.5% of total lost value. Laura Thompson, despite strong new-deal performance discussed earlier, contributes 21.7% of total lost value.
+
+*Lost Deals*
+Lost deals account for 35.6% of resolved-deal count and 39% of resolved-deal value, a high loss rate.
 
 ---
 
@@ -183,6 +209,24 @@ Churn overview
 | **Sales** | Win rate, sales cycle length, stage bottlenecks, country performance |
 | **Agents** | Rep-level leaderboard, win rate, and churn/loss contribution |
 
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-2.png?w=701)
+Overview dashboard
+
+The pipeline is heavily weighted toward “Still Active,” indicating a large volume of in-progress deals that haven’t yet resolved. Laura Thompson is the top performer by volume. Services dominates the pipeline mix, with Custom Solution representing a smaller but notable share. Leads acquired in March and May carry the highest projected value, while leads acquired in April carry the highest lost value. Win rates are low across all industries; Transportation & Logistics generates both the most leads and the most won deals.
+
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-4.png?w=699)
+Sales dashboard
+
+Total won value is $1.1M, with an average deal size of $2,588. Average sales cycle length is 63 days, and roughly 100 won deals took longer than 90 days to close. <br />
+
+Performance peaked early and mid-year before dropping sharply in late summer/early fall. The majority of open opportunities are concentrated in Initial Contact (298) and Nurturing (220), only 140 have reached Proposal Sent, against 583 records still in earlier stages. This pattern suggests strong top-of-funnel lead generation paired with slower progression into later stages; accelerating that transition is a plausible lever for increasing wins. <br />
+
+Performance across European countries varies, with some markets consistently producing larger average deal size. <br />
+
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-3.png?w=700)
+Agents dashboard
+
+Laura Thompson is the top contributor, with 114 won deals generating $257K and a shorter-than-average sales cycle. Michael Brown and Jessica Martinez are also strong contributors. David Wilson is the clear underperformer: $53K generated across 22 deals, with only a 9% win rate.
 
 ---
 
