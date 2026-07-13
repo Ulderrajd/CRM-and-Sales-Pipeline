@@ -83,6 +83,7 @@ Initial review focused on the columns most relevant to funnel and outcome analys
 ![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-1-3.png?w=356)
 
 - Actual close date has 2,652 null values, which is also expected, this field only populates once a lead becomes a customer (Status sequence = 5) or churns (Status sequence = 6).
+
 ![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-3.png?w=298)
 
 Overall, these nulls are structural, not data-quality defects, and require no imputation or cleanup.
