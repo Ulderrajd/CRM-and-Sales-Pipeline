@@ -120,13 +120,13 @@ Four metrics anchor this analysis: Total Leads, Successful Deals, % of Successfu
 - **% of Successful Deals over Resolved** corrects for that bias, measuring win rate independent of volume.
 - **Average Value of Successful Deals** measures the average value of won deals.
 
-<img width="1112" height="557" alt="image" src="https://github.com/user-attachments/assets/535bf216-e71f-4997-bc44-5e51a9d9cbeb" />
+<img width="1112" height="557" alt="image" src="https://github.com/user-attachments/assets/535bf216-e71f-4997-bc44-5e51a9d9cbeb" /> <br />
 Overall resolved/won/lost split <br />
 
 Resolved outcomes account for roughly a fifth of total leads — likely reflecting how time-consuming the lead-to-close journey is. Among resolved deals, about two-thirds are Won, with roughly a third Lost. <br />
 
 *By Country*
-<img width="1607" height="546" alt="image" src="https://github.com/user-attachments/assets/d70f532d-f9df-43f1-9c46-82cabeb8abc0" />
+<img width="1607" height="546" alt="image" src="https://github.com/user-attachments/assets/d70f532d-f9df-43f1-9c46-82cabeb8abc0" /> <br />
 Country-level lead distribution table
 
 - Italy, France, and Germany generate the most leads and the most successful deals.
@@ -136,7 +136,7 @@ Country-level lead distribution table
 To identify the most promising countries, each metric was scored on a 1–5 scale and summed into a composite score. By this method, **Germany, Italy, and the Netherlands** rank as the most prominent markets.
 
 *By Industry*
-<img width="1855" height="653" alt="image" src="https://github.com/user-attachments/assets/b0e77e29-fff0-4700-b7d0-cdc17045ca44" />
+<img width="1855" height="653" alt="image" src="https://github.com/user-attachments/assets/b0e77e29-fff0-4700-b7d0-cdc17045ca44" /> <br />
 Industry-level lead distribution table
 
 - Transportation & Logistics, Banking & Finance, and IT & IT Services generate the most leads and successful deals.
@@ -146,7 +146,7 @@ Industry-level lead distribution table
 Using the same composite scoring method, **Government Administration/Healthcare** and **Transportation & Logistics** rank highest, with Education & Science, Retail & Distribution, Banking & Finance, and IT & IT Services also notable.
 
 *By Product*
-<img width="1645" height="397" alt="image" src="https://github.com/user-attachments/assets/f4e79a72-57b9-408c-a5e5-e0df3c8be182" />
+<img width="1645" height="397" alt="image" src="https://github.com/user-attachments/assets/f4e79a72-57b9-408c-a5e5-e0df3c8be182" /> <br />
 Product-level lead distribution table
 
 - SAAS has the most leads and successful deals, but the lowest average deal value.
@@ -155,7 +155,7 @@ Product-level lead distribution table
 Each product carries distinct trade-offs: SAAS and Services account for the bulk of lead volume, but SAAS deals are comparatively low-value and Services doesn’t guarantee a strong win rate. Custom Solution is the most lucrative per deal but under-represented in overall volume, a plausible area for deliberate growth investment rather than a segment to scale purely on current traction. <br />
 
 **Sales Team Performance**
-<img width="1657" height="561" alt="image" src="https://github.com/user-attachments/assets/d612fdf3-9ab6-4259-bcd8-3c8adb5c5d71" />
+<img width="1657" height="561" alt="image" src="https://github.com/user-attachments/assets/d612fdf3-9ab6-4259-bcd8-3c8adb5c5d71" /> <br />
 Sales rep performance table
 
 - Laura Thompson has the highest lead volume and the most successful deals, which offsets a comparatively lower average value per deal.
@@ -168,30 +168,30 @@ Using the same 1–5 composite scoring approach, **Laura Thompson** ranks high
 **Churned Customers**
 Among established customers, 49.1% have churned, representing 45.7% of total historical deal value.
 
-<img width="1548" height="272" alt="image" src="https://github.com/user-attachments/assets/7eb01244-4a5a-4c46-aa3d-3e9380a6a862" />
+<img width="1548" height="272" alt="image" src="https://github.com/user-attachments/assets/7eb01244-4a5a-4c46-aa3d-3e9380a6a862" /> <br />
 Churn overview
 
 Churn was broken down by Country, Industry, Product, and Owner: <br />
 *By Country*
-<img width="1095" height="507" alt="image" src="https://github.com/user-attachments/assets/83eaa83a-083e-4d00-b622-be723e64c984" />
+<img width="1095" height="507" alt="image" src="https://github.com/user-attachments/assets/83eaa83a-083e-4d00-b622-be723e64c984" /> <br />
 Churn by country
 
 Spain, Switzerland, Germany, and Italy each show churn rates above 50%. Given Germany’s strong standing in the earlier opportunity analysis, its churn rate is worth flagging for review, a country can rank highly on new-deal potential while also carrying elevated retention risk; these aren’t mutually exclusive findings.
 
 *By Industry*
-<img width="1146" height="667" alt="image" src="https://github.com/user-attachments/assets/929e9432-a2e7-4911-a622-2ed692d2419f" />
+<img width="1146" height="667" alt="image" src="https://github.com/user-attachments/assets/929e9432-a2e7-4911-a622-2ed692d2419f" /> <br />
 Churn by industry
 
 Education & Science stands out with a 70% churn rate and warrants a closer review of account health in that segment.
 
 *By Product*
-<img width="1107" height="297" alt="image" src="https://github.com/user-attachments/assets/45ed7320-6c79-45ae-adc2-61dbddc4a6eb" />
+<img width="1107" height="297" alt="image" src="https://github.com/user-attachments/assets/45ed7320-6c79-45ae-adc2-61dbddc4a6eb" /> <br />
 Churn by product
 
 SAAS and Services carry both the largest customer bases and the largest churned populations, together contributing 78.9% of total lost value
 
 *By Owner (Agent)*
-<img width="1110" height="472" alt="image" src="https://github.com/user-attachments/assets/d5a48fa3-3bcb-43fa-90ea-1d6f92a17d74" />
+<img width="1110" height="472" alt="image" src="https://github.com/user-attachments/assets/d5a48fa3-3bcb-43fa-90ea-1d6f92a17d74" /> <br />
 Churn by owner
 
 Emily Johnson has the highest churn rate (61.3%), contributing 15.5% of total lost value. Laura Thompson, despite strong new-deal performance discussed earlier, contributes 21.7% of total lost value.
@@ -209,13 +209,13 @@ Lost deals account for 35.6% of resolved-deal count and 39% of resolved-deal val
 | **Sales** | Win rate, sales cycle length, stage bottlenecks, country performance |
 | **Agents** | Rep-level leaderboard, win rate, and churn/loss contribution |
 
-![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-2.png?w=701)
-Overview dashboard
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-2.png?w=701) <br />
+*Overview dashboard*
 
 The pipeline is heavily weighted toward “Still Active,” indicating a large volume of in-progress deals that haven’t yet resolved. Laura Thompson is the top performer by volume. Services dominates the pipeline mix, with Custom Solution representing a smaller but notable share. Leads acquired in March and May carry the highest projected value, while leads acquired in April carry the highest lost value. Win rates are low across all industries; Transportation & Logistics generates both the most leads and the most won deals.
 
-![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-4.png?w=699)
-Sales dashboard
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-4.png?w=699) <br />
+*Sales dashboard*
 
 Total won value is $1.1M, with an average deal size of $2,588. Average sales cycle length is 63 days, and roughly 100 won deals took longer than 90 days to close. <br />
 
@@ -223,8 +223,8 @@ Performance peaked early and mid-year before dropping sharply in late summer/ear
 
 Performance across European countries varies, with some markets consistently producing larger average deal size. <br />
 
-![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-3.png?w=700)
-Agents dashboard
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-4-3.png?w=700) <br />
+*Agents dashboard*
 
 Laura Thompson is the top contributor, with 114 won deals generating $257K and a shorter-than-average sales cycle. Michael Brown and Jessica Martinez are also strong contributors. David Wilson is the clear underperformer: $53K generated across 22 deals, with only a 9% win rate.
 
