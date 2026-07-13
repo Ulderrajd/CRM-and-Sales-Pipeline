@@ -24,8 +24,12 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 ## Table of Content
 + [Dataset](#Dataset)
 + [Tools & Approach](#Tools-&-Approach)
-+ [Data Pipeline]
-
++ [Data Pipeline](#Data-Pipeline)
++ [Process](#Process)
++ [Key Findings](#Key-Finfings)
++ [Recommendations](#Recommendations)
++ [Limitations](#Limitations)
++ [Dashboard](#Dashboard)
 
 ## Dataset
 
@@ -51,25 +55,29 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 
 ## Data Pipeline
 Files in the following stages:
-+ Cleaning & Validating: Cleaning, validating and basic analyzing. [Excel](CRM-and-Sales-Pipeline.xlsx)
-+ Analytics: Detailed analyzing. [SQL Script](CRM_SQL_query.sql)
-+ Dashboard building: Load, Power Query, measuring with DAX and building Dashboard [Dashboard](
++ Inital Review and Exploring: Cleaning, validating and basic analyzing. [Excel](CRM-and-Sales-Pipeline.xlsx)
++ Exploratory Data Analysis: Detailed analyzing. [SQL Script](CRM_SQL_query.sql)
++ Dashboard building: Load, Power Query, measuring with DAX and building Dashboard [Dashboard](CRM-and-Sales-Pipeline.pdf)
 
 ---
 
-## Methodology Summary
+## Process
 
-1. **Clean:** validated `Status sequence` against the data dictionary; confirmed all null
-   patterns were structural (tied to pipeline stage, not missing data).
-2. **Classify outcomes:** since the dataset is a point-in-time snapshot rather than a
-   cohort tracked over time, deals were split into **Resolved** (Won, Lost, Disqualified,
-   Customer, Churned Customer) and **Active** (New, Qualified, Sales Accepted, Opportunity)
-   states rather than modeled as a time-based conversion funnel.
-3. **Score and rank:** countries, industries, products, and reps were each scored on a
-   1–5 scale across four metrics (lead volume, win count, win rate, average deal value)
-   and ranked by composite score.
-4. **Build the dashboard:** three Power BI tabs — Overview, Sales, Agents — surface the
-   findings interactively.
+Step 1: Inital Review and Exploring
+Initial review focused on the columns most relevant to funnel and outcome analysis: Status, Status sequence, Stage, Stage sequence, Deal Value, and Probability. These steps are done using Excel Pivot Table.
+Status and Status sequence
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image.png?w=591)
+Industry
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-3-3.png?w=438)
+Country
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-1.png?w=289)
+
+**Null value handling**
+
+- The Status sequence values in the raw data did not match the data dictionary and were corrected to align with it.
+- 2,133 records have null Stage and Stage sequence values. This is expected, Stage and Stage sequence only apply once a record reaches Status = “Opportunity” (Status sequence = 4).
+
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-1-3.png?w=356)
 
 ---
 
@@ -130,23 +138,3 @@ Files in the following stages:
 - **"Won" stage classification:** deals in the "Won" stage are treated as Resolved
   throughout this analysis, even though the data dictionary notes this doesn't strictly
   confirm customer conversion. This is a deliberate simplification, not a data fact.
-
----
-
-## Repository Structure
-
-```
-├── Data/
-│   └── CRM and Sales Pipelines.xlsx        # Source dataset
-├── Working File/
-│   ├── CRM Pipeline Dashboard.pbix         # Power BI dashboard (Overview, Sales, Agents tabs)
-│   └── CRM_SQL_query.xml                   # Saved SQL queries (cleaning, funnel, distribution, churn/loss)
-└── README.md
-```
-
----
-
-Portfolio project — built to demonstrate SQL analysis, DAX measure design, and BI
-dashboard development on a realistic B2B sales dataset. Findings are framed for
-stakeholder review; see the [Limitations](#limitations) section for what these
-results can and can't support.
