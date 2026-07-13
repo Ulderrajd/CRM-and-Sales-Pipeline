@@ -63,8 +63,8 @@ Files in the following stages:
 
 ## Process
 
-Step 1: Inital Review and Exploring
-Initial review focused on the columns most relevant to funnel and outcome analysis: Status, Status sequence, Stage, Stage sequence, Deal Value, and Probability. These steps are done using Excel Pivot Table.
+Step 1: Inital Review and Exploring <br />
+Initial review focused on the columns most relevant to funnel and outcome analysis: Status, Status sequence, Stage, Stage sequence, Deal Value, and Probability. These steps are done using Excel Pivot Table. <bt />
 Status and Status sequence
 ![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image.png?w=591)
 Industry
