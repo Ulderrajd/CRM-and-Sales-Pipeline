@@ -22,6 +22,9 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 ---
 
 ## Table of Content
++ [Dataset](#Dataset)
++ [Tools & Approach](#Tools-&-Approach)
++ 
 
 
 ## Dataset
