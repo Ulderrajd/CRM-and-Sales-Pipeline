@@ -26,10 +26,10 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 + [Tools & Approach](#Tools-&-Approach)
 + [Data Pipeline](#Data-Pipeline)
 + [Process](#Process)
++ [Dashboard](#Dashboard)
 + [Key Findings](#Key-Finfings)
 + [Recommendations](#Recommendations)
 + [Limitations](#Limitations)
-+ [Dashboard](#Dashboard)
 
 ## Dataset
 
@@ -198,6 +198,33 @@ Emily Johnson has the highest churn rate (61.3%), contributing 15.5% of total lo
 
 *Lost Deals*
 Lost deals account for 35.6% of resolved-deal count and 39% of resolved-deal value, a high loss rate.
+*By Country*
+
+<img width="928" height="487" alt="image" src="https://github.com/user-attachments/assets/e48b1911-0ee8-4fdf-aa25-8f2b5d003bc8" /> <br />
+Lost deals by country
+
+Italy has both the highest number of lost deals and the highest lost value. France, Switzerland, and Austria collectively account for roughly a third of total lost value.
+
+*By Industry*
+
+<img width="1096" height="486" alt="image" src="https://github.com/user-attachments/assets/9725fa34-0413-42f0-b1f4-5a19182ae5b7" /> <br />
+Lost deals by industry
+
+Transportation & Logistics, Banking & Finance, and IT & IT Services together account for 44.1% of lost value. Recreation & Sports has a high loss rate (63%) but a small share of total lost value (6.6%).
+
+*By Product*
+
+<img width="917" height="300" alt="image" src="https://github.com/user-attachments/assets/bd19e5d2-36f6-435a-9298-5131af58f800" /> <br />
+Lost deals by product
+
+Services shows both the highest lost rate (40.9%) and highest share of lost value (38.5%).
+
+*By Owner*
+
+<img width="920" height="450" alt="image" src="https://github.com/user-attachments/assets/f7ab598d-7c42-4fe3-913e-d7d004b270ec" /> <br />
+Lost deals by owner
+
+Laura Thompson contributes the most to both lost and churned value in absolute terms, but this is largely a function of her overall deal volume rather than a weak lost/churn rate. David Wilson is the only rep with more lost deals than won deals, reinforcing the earlier performance concern.
 
 ---
 
