@@ -84,6 +84,7 @@ Initial review focused on the columns most relevant to funnel and outcome analys
 ![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-3.png?w=298)
 
 Overall, these nulls are structural, not data-quality defects, and require no imputation or cleanup.
+
 # Step 2: Analyze
 
 Two questions anchor this stage of the analysis:
@@ -152,6 +153,24 @@ Product-level lead distribution table
 - Custom Solution has the highest win rate and highest average deal value, but represents a small share of total leads.
 
 Each product carries distinct trade-offs: SAAS and Services account for the bulk of lead volume, but SAAS deals are comparatively low-value and Services doesn’t guarantee a strong win rate. Custom Solution is the most lucrative per deal but under-represented in overall volume, a plausible area for deliberate growth investment rather than a segment to scale purely on current traction. <br />
+
+**Sales Team Performance**
+<img width="1657" height="561" alt="image" src="https://github.com/user-attachments/assets/d612fdf3-9ab6-4259-bcd8-3c8adb5c5d71" />
+Sales rep performance table
+
+- Laura Thompson has the highest lead volume and the most successful deals, which offsets a comparatively lower average value per deal.
+- Kevin Anderson and Laura Thompson post the highest win rates.
+- David Wilson underperforms across every measured metric and warrants a closer look.
+
+Using the same 1–5 composite scoring approach, **Laura Thompson** ranks highest, followed by Jessica Martinez and Kevin Anderson. **David Wilson** ranks lowest and is a reasonable candidate for coaching or performance review.
+
+**Churn and Lost Deals**
+**Churned Customers**
+Among established customers, 49.1% have churned, representing 45.7% of total historical deal value.
+![](https://billybonka1602.wordpress.com/wp-content/uploads/2026/07/image-1-4.png?w=700)
+Churn overview
+
+
 
 
 ---
