@@ -3,6 +3,7 @@
 A B2B sales pipeline case study covering lead-to-close performance, lead distribution,
 sales rep performance, customer churn, and lost-deal analysis — built with SQL (SQLite)
 for exploration and Power BI for the interactive dashboard.
+[Notion](https://cyan-leader-38f.notion.site/CRM-Pipeline-analysis-3958a3d3282080f49983e6d32919ca28?pvs=74)
 
 ---
 
@@ -17,7 +18,7 @@ to answer three linked business questions:
    and which sales reps are over- or under-performing relative to their peers?
 3. **Where is revenue being lost** and which segments carry the most risk?
 
-[Notion](https://cyan-leader-38f.notion.site/CRM-Pipeline-analysis-3958a3d3282080f49983e6d32919ca28?pvs=74)
+
 
 ---
 
