@@ -6,7 +6,7 @@ for exploration and Power BI for the interactive dashboard.
 
 ---
 
-## Overview
+## Overview & Objects
 
 This project analyzes a CRM dataset of B2B deal and lead records across European markets
 to answer three linked business questions:
