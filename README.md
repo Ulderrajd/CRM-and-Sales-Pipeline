@@ -24,7 +24,7 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 ## Table of Content
 + [Dataset](#Dataset)
 + [Tools & Approach](#Tools-&-Approach)
-+ 
++ [Data Pipeline]
 
 
 ## Dataset
@@ -46,6 +46,14 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 | SQLite / SQL | Data cleaning, exploratory analysis, cohort-style breakdowns (multi-CTE queries) |
 | Power BI / DAX | Interactive dashboard — Overview, Sales, and Agents tabs |
 | DB Browser for SQLite | Query development and validation |
+
+---
+
+## Data Pipeline
+Files in the following stages:
++ Cleaning & Validating: Cleaning, validating and basic analyzing. [Excel](CRM-and-Sales-Pipeline.xlsx)
++ Analytics: Detailed analyzing. [SQL Script](CRM_SQL_query.sql)
++ Dashboard building: Load, Power Query, measuring with DAX and building Dashboard [Dashboard](
 
 ---
 
