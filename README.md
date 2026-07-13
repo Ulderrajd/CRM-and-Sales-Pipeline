@@ -54,6 +54,8 @@ The full write-up, including methodology and every supporting chart, is in [Noti
 ---
 
 ## Data Pipeline
+<img width="2720" height="1280" alt="crm_pipeline_three_stage" src="https://github.com/user-attachments/assets/5913a71f-66a6-48b4-9bca-4115299d5027" /> <br />
+
 Files in the following stages:
 + Inital Review and Exploring: Cleaning, validating and basic analyzing. [Excel](CRM-and-Sales-Pipeline.xlsx)
 + Exploratory Data Analysis: Detailed analyzing. [SQL Script](CRM_SQL_query.sql)
